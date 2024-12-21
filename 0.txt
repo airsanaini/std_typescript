@@ -1,15 +1,29 @@
+untuk alasan kemudahan distribusi:
 saya memiliki struktur folder:
-start
-   _cfg 
-        MakeFile
-   dist
-        (tempat hasil kompilasi file .ts yaitu file .js)
-   mod
-        node_modules (tempat diinstallnya typescript secara lokal)
-        package-lock.json
-        package.json
-        tsconfig.json
-   src 
-        tes.ts
+start/
+│
+├── _cfg/  
+│   ├── Makefile 
+├── public/
+│   ├── index.html
+│   └── assets/
+├── src/
+│   ├── components/
+│   │   └── Cube.ts
+│   ├── scenes/
+│   │   └── MainScene.ts
+│   ├── styles/
+│   │   └── main.css
+│   ├── App.ts
+│   └── index.ts
+├── dist/
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── webpack.config.js
+└── README.md
 
-saya ingin membuat MakeFile yang mengotomisasi pekerjaan kompilasi dari file .ts menjadi file .js sesuai direktorinya
+
+apa langkah-langkah nya? jelaskan dan urutkan dengan detail!
+
+npm install three@0.160.1 @thatopen/fragments @thatopen/components @thatopen/components-front web-ifc @thatopen/fragments @thatopen/ui @thatopen/ui-obc typescript webpack webpack-cli ts-loader style-loader css-loader 

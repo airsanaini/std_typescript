@@ -1,13 +1,16 @@
 # Direktori
-DIR_MOD=../mod
+DIR_MOD=../
 DIR_IN=../src
 DIR_OUT=../dist
 
+# Kompilasi TypeScript
 tsc:
 	cd $(DIR_MOD) && npm run build
 
+# Menjalankan file JS hasil kompilasi
 js:
 	node $(DIR_OUT)/tes.js
 
+# Menghapus hasil kompilasi
 clean:
-	del /f /s /q "$(DIR_OUT)\*"
+	del /f /s /q "$(DIR_OUT)"
