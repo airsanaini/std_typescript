@@ -4,19 +4,20 @@ start/
 │
 ├── _cfg/  
 │   ├── Makefile 
+├── dist/
+├── node_modules/
 ├── public/
 │   ├── index.html
 │   └── assets/
 ├── src/
 │   ├── components/
-│   │   └── Cube.ts
+│   │   └── cube.ts
 │   ├── scenes/
-│   │   └── MainScene.ts
+│   │   └── main_scene.ts
 │   ├── styles/
 │   │   └── main.css
-│   ├── App.ts
+│   ├── app.ts
 │   └── index.ts
-├── dist/
 ├── .gitignore
 ├── package.json
 ├── tsconfig.json
@@ -24,6 +25,9 @@ start/
 └── README.md
 
 
+
 apa langkah-langkah nya? jelaskan dan urutkan dengan detail!
 
-npm install three@0.160.1 @thatopen/fragments @thatopen/components @thatopen/components-front web-ifc @thatopen/fragments @thatopen/ui @thatopen/ui-obc typescript webpack webpack-cli ts-loader style-loader css-loader 
+npm install three@0.160.1 @types/three @thatopen/fragments @thatopen/components @thatopen/components-front web-ifc @thatopen/fragments @thatopen/ui @thatopen/ui-obc typescript webpack webpack-cli ts-loader style-loader css-loader 
+
+
