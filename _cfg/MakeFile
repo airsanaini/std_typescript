@@ -10,4 +10,4 @@ js:
 	node $(DIR_OUT)/tes.js
 
 clean:
-	del /f /s /q "$(DIR_OUT)"
+	del /f /s /q "$(DIR_OUT)\*"
