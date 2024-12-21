@@ -1,0 +1,15 @@
+# Path module typescript
+TSMOD = ../mod
+
+# Path file konfigurasi typescript
+TSCFG = ../mod/tsconfig.json
+
+# Path file source typescript
+TSIN = ../src/tes.ts
+
+# Path file hasil kompilasi typescript
+TSOUT = ../dist/tes.js
+
+# Rule untuk menjalankan proses kompilasi typescript
+tsc:
+	cd $(TSMOD); npm run build
