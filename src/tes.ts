@@ -1,3 +1,3 @@
 // Ini adalah contoh typescript
 
-console.log("Hello World");
+console.log("Hello Omi dan Arkha, Obi dirumah menunggu");

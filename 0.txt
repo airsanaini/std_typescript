@@ -1,0 +1,15 @@
+saya memiliki struktur folder:
+start
+   _cfg 
+        MakeFile
+   dist
+        (tempat hasil kompilasi file .ts yaitu file .js)
+   mod
+        node_modules (tempat diinstallnya typescript secara lokal)
+        package-lock.json
+        package.json
+        tsconfig.json
+   src 
+        tes.ts
+
+saya ingin membuat MakeFile yang mengotomisasi pekerjaan kompilasi dari file .ts menjadi file .js sesuai direktorinya
