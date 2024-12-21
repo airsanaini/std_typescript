@@ -1,15 +1,10 @@
-# Path module typescript
-TSMOD = ../mod
+# Direktori
+DIR_MOD=../mod
+DIR_IN=../src
+DIR_OUT=../dist
 
-# Path file konfigurasi typescript
-TSCFG = ../mod/tsconfig.json
-
-# Path file source typescript
-TSIN = ../src/tes.ts
-
-# Path file hasil kompilasi typescript
-TSOUT = ../dist/tes.js
-
-# Rule untuk menjalankan proses kompilasi typescript
 tsc:
-	cd $(TSMOD); npm run build
+	cd $(DIR_MOD) && npm run build
+
+js:
+	node $(DIR_OUT)/tes.js
