@@ -1,0 +1,48 @@
+# Python
+./.uml/
+./_cfg/pylibs/
+./backend/django/media/
+./backend/django/staticfiles/
+dist/
+build/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+db.sqlite3
+
+
+#_______________________________
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+
+#_______________________________
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+*.iml
+*.bak
+*.DS_Store
+
+
+#_______________________________
+# Docker
+.dockerignore
+
+
+#_______________________________
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
